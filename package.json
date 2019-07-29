@@ -1,0 +1,24 @@
+{
+  "name": "multipasstest",
+  "version": "1.0.0",
+  "description": "base code for multipass with multipassify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alankalb/multipasstest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alankalb/multipasstest/issues"
+  },
+  "homepage": "https://github.com/alankalb/multipasstest#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "multipassify": "^1.1.0"
+  }
+}
