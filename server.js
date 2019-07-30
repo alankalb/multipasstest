@@ -16,13 +16,13 @@ router.get('/javascript/frontend.js',function(req,res){
 
 router.post('/multipass',function(req,res){
    
-    var multipassify = new Multipassify("593b9f2a31d3b37b45eda6a35e687885");
+    var multipassify = new Multipassify("multipass key");
 
-    var customerData = { email: 'alan.kalbfleisch@shopify.com', return_to:"http://alankalb.myshopify.com/account"};
+    var customerData = { email: 'email', return_to:"url"};
 
     var token = multipassify.encode(customerData);
 
-    var url = multipassify.generateUrl(customerData, "alankalb.myshopify.com");
+    var url = multipassify.generateUrl(customerData, "store.myshopify.com");
 
     res.send(url);
 });
